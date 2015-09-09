@@ -1,3 +1,5 @@
+/*Flexbox makes the two articles stay the same length*/
+
 .flex {
   display: flex;
   flex-flow: row wrap;
@@ -59,18 +61,6 @@ li.three {
   flex-grow: 1;
 }
 
-.article2 :nth-child(2n+0) {
-  background-color: #FFF5EE;
-}
-
-.article2 :nth-child(2n+1) {
-  background-color: #F5FFFA;
-}
-
-.section2 :first-child {
-  font-weight: bold;
-}
-
 .section2 {
   margin: 1em;
   padding: 5px;
@@ -94,4 +84,8 @@ ul {
 
 div.center {
   text-align: center;
+}
+
+#song {
+  margin-bottom: 10px;
 }
